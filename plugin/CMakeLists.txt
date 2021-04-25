@@ -14,7 +14,7 @@ file(GLOB PLUGIN_SOURCE
         NMS_V3/*.cpp)
 # message("bbbbbbbbbbb: " ${PLUGIN_SOURCE})
 
-add_library(trt_plugin SHARED ${PLUGIN_SOURCE})
+add_library(trt_plugin STATIC ${PLUGIN_SOURCE})
 
 # 链接库
 target_link_libraries(

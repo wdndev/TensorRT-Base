@@ -13,7 +13,7 @@ file(GLOB COMMON_SOURCE *.cpp )
 
 # file(GLOB_RECURSE trt_source "helper.h" "helper.cpp" "logging.h" "timer.h")
 
-add_library(common SHARED ${COMMON_SOURCE})
+add_library(common STATIC ${COMMON_SOURCE})
 
 # 链接库
 target_link_libraries(

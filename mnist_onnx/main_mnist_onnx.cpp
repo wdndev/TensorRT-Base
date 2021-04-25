@@ -5,12 +5,12 @@
 
 int main()
 {
-    const std::string onnx_model = "mnist_onnx/model/modified.onnx";
+    const std::string onnx_model = "mnist_onnx/model/mnist.onnx";
     const std::string engine_file = "";
     //const std::string engine_file = "mnist_onnx/model/mnist_onnx.bin";
     int batch_size = 1;
-    // const std::vector<std::string> output_name{"Plus214_Output_0"};
-    const std::vector<std::string> output_name{"identity_out"};
+    const std::vector<std::string> output_name{"Plus214_Output_0"};
+    // const std::vector<std::string> output_name{"identity_out"};
     infer_precision_t precision = INFER_FP32;
 
     MnistOnnx* mnist_onnx = new MnistOnnx(onnx_model, engine_file, batch_size, output_name, precision);

@@ -317,6 +317,8 @@ trt_ret_t TrtBase::set_int8_calibrator(const std::string& calibrator_type,
     // m_builder->setInt8Mode(true);
     m_config->setFlag(nvinfer1::BuilderFlag::kINT8);
     m_config->setInt8Calibrator(calibrator);
+
+    return TRT_SUCCESS;
 }
 
 /**

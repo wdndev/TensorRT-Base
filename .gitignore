@@ -1,5 +1,7 @@
 ##ignore this file##
 bin/*
 build/*
+lib/*
 mnist_onnx/model/model.onnx
 faster_rcnn/model/VGG16_faster_rcnn_final.caffemodel
+faster_rcnn/model/faster_rcnn.bin
