@@ -1,4 +1,13 @@
-﻿#include <iostream>
+﻿/**
+ * @file        - main_faster_rcnn.cpp
+ * @author      - wdn
+ * @brief       - faster_rcnn测试
+ * 
+ * @copyright Copyright (c) 2021, wdn. All rights reserved.
+ * 
+ */
+
+#include <iostream>
 
 #include "helper.h"
 #include "faster_rcnn.h"

@@ -3,7 +3,7 @@
  * @author      - wdn
  * @brief       - common
  * 
- * @copyright Copyright (c) 2021 wdn
+ * Copyright (c) 2021, wdn. All rights reserved.
  * 
  */
 #ifndef TRT_HELPER_H

@@ -1,8 +1,8 @@
 ﻿# @file CMakeLists.txt
 # @author wdn
 # @brief  工程编译文件
-# /home/lt/.eclipse/org.eclipse.platform_4.4.1_15308342_linux_gtk_x86_64/p2/pwd
-# @copyright Copyright (c) wdn
+# 
+# @copyright Copyright (c) 2021, wdn. All rights reserved.
 
 cmake_minimum_required(VERSION 3.0)
 

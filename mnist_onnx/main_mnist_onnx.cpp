@@ -1,4 +1,14 @@
-﻿#include <iostream>
+﻿/**
+ * @file        - main_mnist_onnx.cpp
+ * @author      - wdn
+ * @brief       - mnist_onnx demp
+ * 
+ * @copyright Copyright (c) 2021, wdn. All rights reserved.
+ * 
+ */
+
+
+#include <iostream>
 
 #include "helper.h"
 #include "mnist_onnx.h"

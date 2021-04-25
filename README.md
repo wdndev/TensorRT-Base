@@ -32,8 +32,7 @@
   ├── CMakeLists.txt: 根目录CMake配置文件
   ├── mnist_caffe: TensorRT解析caffe模型demo
   ├── mnist_onnx: TensorRT解析ONNX模型demo
-  ├── faster_rcnn: TensoRT加速Faster RCNN算法
-  └── pascal_voc_classes.json: pascal_voc标签文件
+  └── faster_rcnn: TensoRT加速Faster RCNN算法
 ```
 
 # 4.Running
@@ -57,7 +56,7 @@ make
 
 编译完成后，在bin文件夹中会生成可执行文件，lib目录下会生成库文件，由于Windows环境下配置动态库较麻烦，默认生成静态库，可自己修改。
 
-运行bin文件夹中可执行文件，即可加速深度学习模型，以mnist onnx demo为例
+运行bin文件夹中可执行文件，即可加速深度学习模型，以faster rcnn demo为例
 
 ```shell
 PS E:\TensorRT-Base> .\bin\Release\faster_rcnn.exe

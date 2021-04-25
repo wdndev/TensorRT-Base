@@ -1,4 +1,13 @@
-﻿#include <iostream>
+﻿/**
+ * @file        - main_mnist_caffe.cpp
+ * @author      - wdn
+ * @brief       - mnist_caffe demp
+ * 
+ * @copyright Copyright (c) 2021, wdn. All rights reserved.
+ * 
+ */
+
+#include <iostream>
 
 #include "helper.h"
 #include "mnist_caffe.h"

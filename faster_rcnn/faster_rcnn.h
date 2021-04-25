@@ -1,7 +1,7 @@
 ﻿/**
- * @file        - mnist_onnx.h
+ * @file        - faster_rcnn.h
  * @author      - wdn
- * @brief       - mnist_onnx
+ * @brief       - faster_rcnn
  * 
  * @copyright Copyright (c) 2021, wdn. All rights reserved.
  * 

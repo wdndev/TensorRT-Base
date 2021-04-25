@@ -2,7 +2,7 @@
 # @author wdn
 # @brief  mnist编译文件
 # 
-# @copyright Copyright (c) 2021 wdn
+# Copyright (c) 2021, wdn. All rights reserved.
 
 cmake_minimum_required (VERSION 3.0)
 
