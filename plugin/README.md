@@ -4,7 +4,7 @@
 
 TensorRT已经只支持了许多常见的神经网络层,比如卷积, 池化, BN等等. 但是依然还有很多操作和算子是不支持的,所以TensorRT提供了接口让我们可以编写插件来实现自己的自定义层。
 
-随着tensorRT的不断发展(v5->v6->v7)，TensorRT的插件的使用方式也在不断更新。插件接口也在不断地变化，由v5版本的`IPluginV2Ext`，到v6版本的`IPluginV2IOExt`和`IPluginV2DynamicExt`。未来不知道会不会出来新的API，不过这也不是咱要考虑的问题，因为TensorRT的后兼容性做的很好，根本不用担心你写的旧版本插件在新版本上无法运行。
+随着tensorRT的不断发展(v5->v6->v7)，TensorRT的插件的使用方式也在不断更新。插件接口也在不断地变化，由v5版本的`IPluginV2Ext`，到v6版本的`IPluginV2IOExt`和`IPluginV2DynamicExt`。
 
 | TensorRT版本        | 混合精度 | 动态大小输入 | Requires extended runtime |      |
 | ------------------- | -------- | ------------ | ------------------------- | ---- |
@@ -105,7 +105,7 @@ engine构建阶段会再次通过`CustomPlugin(const Weights *weights, int nbWei
 
 IPluginCreator主要用于将编写好的IPlugin插件注册到Plugin Registry。
 
-```C+
+```c++
 class DemoPluginCreator : public nvinfer1::IPluginCreator
 {
 public:
@@ -152,3 +152,11 @@ private:
 ## 6.REGISTER_TENSORRT_PLUGIN
 
 注册plugin宏定义。
+
+```C++
+/**
+ * 注册plugin ！！！！！！！！！！！！！！
+*/
+REGISTER_TENSORRT_PLUGIN(DemoPluginCreator);
+```
+
