@@ -1,6 +1,6 @@
 /**
  * @file        - demo_plugin.cpp
- * @author      - wdn (you@domain.com)
+ * @author      - wdn (dongnian.wang@outlook.com)
  * @brief 
  * 
  * @copyright Copyright (c) 2021, wdn. All rights reserved.

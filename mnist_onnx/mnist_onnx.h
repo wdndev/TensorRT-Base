@@ -1,6 +1,6 @@
 ﻿/**
  * @file        - mnist_onnx.h
- * @author      - wdn
+ * @author      - wdn (dongnian.wang@outlook.com)
  * @brief       - mnist_onnx
  * 
  * @copyright Copyright (c) 2021, wdn. All rights reserved.

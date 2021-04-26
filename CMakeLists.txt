@@ -1,6 +1,6 @@
-﻿# @file CMakeLists.txt
-# @author wdn
-# @brief  工程编译文件
+﻿# @file     - CMakeLists.txt
+# @author   - wdn (dongnian.wang@outlook.com)
+# @brief    - 工程编译文件
 # 
 # @copyright Copyright (c) 2021, wdn. All rights reserved.
 

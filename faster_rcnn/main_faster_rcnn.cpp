@@ -1,6 +1,6 @@
 ﻿/**
  * @file        - main_faster_rcnn.cpp
- * @author      - wdn
+ * @author      - wdn (dongnian.wang@outlook.com)
  * @brief       - faster_rcnn测试
  * 
  * @copyright Copyright (c) 2021, wdn. All rights reserved.

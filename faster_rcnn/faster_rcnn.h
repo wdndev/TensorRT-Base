@@ -1,6 +1,6 @@
 ﻿/**
  * @file        - faster_rcnn.h
- * @author      - wdn
+ * @author      - wdn (dongnian.wang@outlook.com)
  * @brief       - faster_rcnn
  * 
  * @copyright Copyright (c) 2021, wdn. All rights reserved.

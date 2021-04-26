@@ -1,6 +1,6 @@
 ﻿/**
  * @file        - trt_return_type.h
- * @author      - wdn (dongnianwang@outlook.com)
+ * @author      - wdn (dongnian.wang@outlook.com)
  * @brief 
  * 
  * @copyright Copyright (c) 2021, wdn. All rights reserved.

@@ -1,6 +1,6 @@
-﻿# @file mnist/CMakeLists.txt
-# @author wdn
-# @brief  mnist编译文件
+﻿# @file         - mnist_caffe/CMakeLists.txt
+# @author       - wdn (dongnian.wang@outlook.com)
+# @brief        - mnist编译文件
 # 
 # @copyright Copyright (c) 2021, wdn. All rights reserved.
 

@@ -1,6 +1,6 @@
 ﻿/**
  * @file        - logging.h
- * @author      - wdn (dongnianwang@outlook.com)
+ * @author      - wdn (dongnian.wang@outlook.com)
  * @brief       - 日志类
  * 
  * @copyright Copyright (c) 2019, NVIDIA CORPORATION. All rights reserved.

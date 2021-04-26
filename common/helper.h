@@ -1,6 +1,6 @@
 ﻿/**
  * @file        - helper.h
- * @author      - wdn (dongnianwang@outlook.com)
+ * @author      - wdn (dongnian.wang@outlook.com)
  * @brief       - 一些公共函数定义
  * 
  * Copyright (c) 2021, wdn. All rights reserved.

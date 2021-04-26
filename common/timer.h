@@ -1,6 +1,6 @@
 ﻿/**
  * @file        - timer.h
- * @author      - wdn (dongnianwang@outlook.com)
+ * @author      - wdn (dongnian.wang@outlook.com)
  * @brief       - CPU/GPU计时类
  * 
  * @copyright Copyright (c) 2021, wdn. All rights reserved.

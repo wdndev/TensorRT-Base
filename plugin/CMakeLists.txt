@@ -1,5 +1,5 @@
 ﻿# @file         - plugin/CMakeLists.txt
-# @author       - wdn
+# @author       - wdn (dongnian.wang@outlook.com)
 # @brief        - plugin编译文件
 # 
 # @copyright Copyright (c) 2021, wdn. All rights reserved.
@@ -11,7 +11,6 @@ project ("trt_plugin")
 file(GLOB PLUGIN_SOURCE  
         *.cpp
         demo_plugin/*.cpp)
-# message("bbbbbbbbbbb: " ${PLUGIN_SOURCE})
 
 add_library(trt_plugin STATIC ${PLUGIN_SOURCE})
 

@@ -1,6 +1,6 @@
-﻿# @file faster_rcnn/CMakeLists.txt
-# @author wdn
-# @brief  mnist编译文件
+﻿# @file         - faster_rcnn/CMakeLists.txt
+# @author       - wdn (dongnian.wang@outlook.com)
+# @brief        - mnist编译文件
 # 
 # Copyright (c) 2021, wdn. All rights reserved.
 

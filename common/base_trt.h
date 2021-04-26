@@ -1,6 +1,6 @@
 ﻿/**
  * @file        - base_trt.h
- * @author      - wdn (dongnianwang@outlook.com)
+ * @author      - wdn (dongnian.wang@outlook.com)
  * @brief       - tensorrt 推理基类
  * 
  * @copyright Copyright (c) 2021, wdn. All rights reserved.

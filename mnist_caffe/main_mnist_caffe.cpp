@@ -1,6 +1,6 @@
 ﻿/**
  * @file        - main_mnist_caffe.cpp
- * @author      - wdn
+ * @author      - wdn (dongnian.wang@outlook.com)
  * @brief       - mnist_caffe demp
  * 
  * @copyright Copyright (c) 2021, wdn. All rights reserved.
