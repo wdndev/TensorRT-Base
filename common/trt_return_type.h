@@ -1,6 +1,6 @@
 ﻿/**
  * @file        - trt_return_type.h
- * @author      - wdn (you@domain.com)
+ * @author      - wdn (dongnianwang@outlook.com)
  * @brief 
  * 
  * @copyright Copyright (c) 2021, wdn. All rights reserved.
@@ -15,7 +15,7 @@
  * TensorRT 推理返回值
  */
 typedef enum {
-    TRT_SUCCESS                 = 0,
+    TRT_SUCCESS                 =  0,
     TRT_ERR_FILE_NAME           = -1,
     TRT_ERR_ENGINE              = -2,
     TRT_ERR_OPEN_FILE           = -3,

@@ -24,16 +24,28 @@ namespace plugin
 class DemoPlugin : public nvinfer1::IPluginV2Ext
 {
 public:
+    /**
+     * parse 阶段构造函数
+    */
     DemoPlugin(const std::string layer_name);
 
+    /**
+     * deserialize 阶段构造函数
+    */
     DemoPlugin(const std::string layer_name, const void* data, size_t length);
 
-    //DemoPlugin() = delete;
+    /**
+     * 注意：删掉默认构造函数
+    */
+    DemoPlugin() = delete;
 
     const char* getPluginType() const override;
 
     const char* getPluginVersion() const override;
 
+    /**
+     * 返回op返回多少个Tensor
+    */
     int getNbOutputs() const override;
 
     nvinfer1::Dims getOutputDimensions(int index, const nvinfer1::Dims* inputs, int nbInputDims) override;
@@ -43,6 +55,9 @@ public:
     //         const nvinfer1::Dims* outputDims, int nbOutputs, nvinfer1::DataType type, 
     //         nvinfer1::PluginFormat format, int maxBatchSize) override;
 
+    /**
+     * 初始化函数
+    */
     int initialize() override;
 
     void terminate() override;

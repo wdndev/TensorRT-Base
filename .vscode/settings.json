@@ -77,6 +77,11 @@
         "filesystem": "cpp",
         "mutex": "cpp",
         "thread": "cpp",
-        "__nullptr": "cpp"
+        "__nullptr": "cpp",
+        "bit": "cpp",
+        "compare": "cpp",
+        "concepts": "cpp",
+        "stack": "cpp",
+        "stop_token": "cpp"
     }
 }

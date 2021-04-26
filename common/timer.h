@@ -1,7 +1,7 @@
 ﻿/**
  * @file        - timer.h
- * @author      - wdn
- * @brief       - 日志
+ * @author      - wdn (dongnianwang@outlook.com)
+ * @brief       - CPU/GPU计时类
  * 
  * @copyright Copyright (c) 2021, wdn. All rights reserved.
  * 

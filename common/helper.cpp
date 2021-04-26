@@ -1,7 +1,7 @@
 ﻿/**
  * @file        - helper.h
- * @author      - wdn
- * @brief       - common
+ * @author      - wdn (dongnianwang@outlook.com)
+ * @brief       - 一些公共函数实现
  * 
  * Copyright (c) 2021, wdn. All rights reserved.
  * 

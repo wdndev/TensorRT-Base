@@ -1,7 +1,7 @@
 ﻿/**
  * @file        - logging.h
- * @author      - NVIDIA, wdn
- * @brief       - 日志
+ * @author      - wdn (dongnianwang@outlook.com)
+ * @brief       - 日志类
  * 
  * @copyright Copyright (c) 2019, NVIDIA CORPORATION. All rights reserved.
  * 
@@ -144,7 +144,7 @@ public:
 private:
     static std::ostream& severity_ostream(Severity severity)
     {
-        return severity > Severity::kINFO ? std::cout : std::cerr;
+        return severity > Severity::kERROR ? std::cout : std::cerr;
     }
 
     static std::string severity_prefix(Severity severity)
@@ -247,12 +247,6 @@ private:
         return severity > Severity::kINFO ? std::cout : std::cerr;
     }
 
-    /**
-     * 测试结构流
-    */
-
-
-    
     Severity m_reportable_severity;
 };
 

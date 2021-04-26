@@ -1,5 +1,5 @@
 ﻿# @file         - common/CMakeLists.txt
-# @author       - wdn
+# @author       - wdn (dongnianwang@outlook.com)
 # @brief        - common编译文件
 # 
 # Copyright (c) 2021, wdn. All rights reserved.

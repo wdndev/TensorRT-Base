@@ -3,12 +3,12 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**",
-                "/usr/local/opencv/include",
-                "/usr/local/opencv/include/opencv",
-                "/usr/local/opencv/include/opencv2",
-                "/usr/local/cuda/include",
-                "/opt/TensorRT-7.2.2.3/include"
+                "${workspaceFolder}/**"
+                // "/usr/local/opencv/include",
+                // "/usr/local/opencv/include/opencv",
+                // "/usr/local/opencv/include/opencv2",
+                // "/usr/local/cuda/include",
+                // "/opt/TensorRT-7.2.2.3/include"
             ],
             "defines": [
                 "_DEBUG",

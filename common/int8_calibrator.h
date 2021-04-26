@@ -1,7 +1,7 @@
 /**
  * @file        - int8_calibrator.h
- * @author      - wdn (you@domain.com)
- * @brief 
+ * @author      - wdn (dongnianwang@outlook.com)
+ * @brief       - tensorrt int8量化类声明
  * 
  * @copyright Copyright (c) 2021, wdn. All rights reserved.
  * 
@@ -26,7 +26,7 @@ nvinfer1::IInt8Calibrator* get_int8_calibrator(const std::string& calibrator_typ
 }// helper
 
 /**
- * Tens
+ * TensorRT INT8量化类
  */
 class Int8EntropyCalibrator2 : public nvinfer1::IInt8EntropyCalibrator2
 {

@@ -1,7 +1,7 @@
 /**
  * @file        - int8_calibrator.cpp
- * @author      - wdn (you@domain.com)
- * @brief 
+ * @author      - wdn (dongnianwang@outlook.com)
+ * @brief       - TensorRT INT8量化类实现
  * 
  * @copyright Copyright (c) 2021, wdn. All rights reserved.
  * 
