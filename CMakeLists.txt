@@ -68,7 +68,7 @@ link_directories(${CUDA_LIB_DIR} ${TRT_LIB_DIR})
 # 包含子项目。
 add_subdirectory ("common")
 add_subdirectory ("plugin")
-# add_subdirectory ("mnist_caffe")
+add_subdirectory ("mnist_caffe")
 add_subdirectory ("mnist_onnx")
 add_subdirectory ("faster_rcnn")
 

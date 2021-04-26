@@ -20,7 +20,6 @@
 #include "helper.h"
 #include "trt_return_type.h"
 #include "int8_calibrator.h"
-#include "plugin_factory.h"
 
 /**
  * 运行精度
@@ -42,10 +41,6 @@ typedef enum
 //     void* value; 
 // }data_t;
 
-/**
- * plugin工厂类
-*/
-//class PluginFactory;
 
 class TrtBase
 {
@@ -338,8 +333,6 @@ protected:
     nvinfer1::ICudaEngine* m_engine = nullptr;
 
     nvinfer1::IExecutionContext* m_context = nullptr;
-
-    PluginFactory* m_plguin_factory;
 
     nvinfer1::IRuntime* m_runtime = nullptr;
 

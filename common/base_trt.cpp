@@ -22,17 +22,12 @@
 
 #include "base_trt.h"
 #include "helper.h"
-#include "plugin_factory.h"
-#include "NMS_V3/NMS_V3.h"
 
 /**
  * 默认构造函数
 */
 TrtBase::TrtBase()
 {
-    plugin_param_t tst;
-    tst.test = 2222;
-    // m_plguin_factory = new PluginFactory(tst);
     m_builder = nvinfer1::createInferBuilder(m_logger);
     m_config = m_builder->createBuilderConfig();
 }
@@ -41,13 +36,7 @@ TrtBase::TrtBase()
  * 析构函数
 */
 TrtBase::~TrtBase()
-{
-    if(m_plguin_factory != nullptr)
-    {
-        delete m_plguin_factory;
-        m_plguin_factory = nullptr;
-    }
-    
+{  
     if(m_context != nullptr)
     {
         m_context->destroy();

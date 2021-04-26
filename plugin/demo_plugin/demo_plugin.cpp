@@ -38,13 +38,13 @@ DemoPlugin::DemoPlugin(const std::string layer_name, const void* data, size_t le
 const char* DemoPlugin::getPluginType() const
 {
     log(" run here now! ");
-    return m_plugin_version.c_str();
+    return m_plugin_name.c_str();
 }
 
 const char* DemoPlugin::getPluginVersion() const
 {
     log(" run here now! ");
-    return m_plugin_name.c_str();
+    return m_plugin_version.c_str();
 }
 
 int DemoPlugin::getNbOutputs() const
@@ -209,4 +209,7 @@ const char* DemoPluginCreator::getPluginNamespace() const
     return m_namespace.c_str();
 }
 
+/**
+ * 注册plugin ！！！！！！！！！！！！！！
+*/
 REGISTER_TENSORRT_PLUGIN(DemoPluginCreator);

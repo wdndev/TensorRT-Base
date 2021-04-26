@@ -10,8 +10,7 @@ project ("trt_plugin")
 
 file(GLOB PLUGIN_SOURCE  
         *.cpp
-        demo_plugin/*.cpp
-        NMS_V3/*.cpp)
+        demo_plugin/*.cpp)
 # message("bbbbbbbbbbb: " ${PLUGIN_SOURCE})
 
 add_library(trt_plugin STATIC ${PLUGIN_SOURCE})
